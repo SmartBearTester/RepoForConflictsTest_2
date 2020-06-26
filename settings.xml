@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <con:soapui-project id="9b922c10-d7c5-4782-bbce-c5d552ffc238" created="3.3.0-AT" activeEnvironment="Default environment" name="project-for-git-conflicts-test-2" updated="3.3.0-AT" encryptionMode="Not encrypted" resourceRoot="" compositeProjectFormat="1.3" xmlns:con="http://eviware.com/soapui/config">
-  <con:settings/>
+  <con:settings>
+    <con:setting id="9b922c10-d7c5-4782-bbce-c5d552ffc238fileName">RepoForConflictsTest_2</con:setting>
+  </con:settings>
   <con:properties/>
   <con:wssContainer/>
   <con:databaseConnectionContainer/>
@@ -12,18 +14,6 @@
       <con:accessToken>test</con:accessToken>
       <con:accessTokenPosition>HEADER</con:accessTokenPosition>
       <con:accessTokenStartingStatus>ENTERED_MANUALLY</con:accessTokenStartingStatus>
-      <con:refreshAccessTokenMethod>AUTOMATIC</con:refreshAccessTokenMethod>
-      <con:idToken>test</con:idToken>
-      <con:idTokenStatus>ENTERED_MANUALLY</con:idTokenStatus>
-      <con:idTokenStartingStatus>ENTERED_MANUALLY</con:idTokenStartingStatus>
-    </con:oAuth2Profile>
-    <con:oAuth2Profile>
-      <con:name>MyOauth20Jwt</con:name>
-      <con:type>OAuth 2.0</con:type>
-      <con:accessToken>test</con:accessToken>
-      <con:accessTokenPosition>HEADER</con:accessTokenPosition>
-      <con:accessTokenStartingStatus>ENTERED_MANUALLY</con:accessTokenStartingStatus>
-      <con:oAuth2Flow>JWT_GRANT</con:oAuth2Flow>
       <con:refreshAccessTokenMethod>AUTOMATIC</con:refreshAccessTokenMethod>
       <con:idToken>test</con:idToken>
       <con:idTokenStatus>ENTERED_MANUALLY</con:idTokenStatus>
@@ -105,18 +95,6 @@
       <con:accessToken>test</con:accessToken>
       <con:accessTokenPosition>HEADER</con:accessTokenPosition>
       <con:accessTokenStartingStatus>ENTERED_MANUALLY</con:accessTokenStartingStatus>
-      <con:refreshAccessTokenMethod>AUTOMATIC</con:refreshAccessTokenMethod>
-      <con:idToken>test</con:idToken>
-      <con:idTokenStatus>ENTERED_MANUALLY</con:idTokenStatus>
-      <con:idTokenStartingStatus>ENTERED_MANUALLY</con:idTokenStartingStatus>
-    </con:oAuth20AuthEntry>
-    <con:oAuth20AuthEntry>
-      <con:name>MyOauth20Jwt</con:name>
-      <con:type>OAuth 2.0</con:type>
-      <con:accessToken>test</con:accessToken>
-      <con:accessTokenPosition>HEADER</con:accessTokenPosition>
-      <con:accessTokenStartingStatus>ENTERED_MANUALLY</con:accessTokenStartingStatus>
-      <con:oAuth2Flow>JWT_GRANT</con:oAuth2Flow>
       <con:refreshAccessTokenMethod>AUTOMATIC</con:refreshAccessTokenMethod>
       <con:idToken>test</con:idToken>
       <con:idTokenStatus>ENTERED_MANUALLY</con:idTokenStatus>
